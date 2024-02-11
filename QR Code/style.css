@@ -1,0 +1,60 @@
+/* style your code */
+
+/* import font from fonts.google.com */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+
+img {
+  width: 100%;
+  border-radius: 12px; /* to get curve at corner */
+  object-fit: cover;
+}
+
+#container {
+  max-width: 375px; /* width for mobile*/
+  margin: 0 auto;
+  margin-top: 6vh;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  padding: 12px; /*space inside the card*/
+  border-radius: 12px;
+}
+
+.heading {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.para {
+  color: hsl(220, 15%, 55%);
+}
+
+.card_details {
+  padding: 12px 8px 8px 8px;
+}
+
+.attribute {
+  color: hsl(220, 15%, 55%);
+}
+
+.attribute a {
+  color: hsl(218, 44%, 22%);
+  text-decoration: none;
+}
+
+.attribute a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+}
